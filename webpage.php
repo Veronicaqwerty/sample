@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker/IT/Developer Theme</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            color: #00ff00;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+            color: #fff;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h1 {
+            color: #00ff00;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        a {
+            color: #00ff00;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">Code Snippets</a>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to the Hacker/IT/Developer Theme</h1>
+        <p>This is a cool and stylish webpage designed with a hacker/IT/developer theme. Feel free to explore!</p>
+        <p>Check out our <a href="#">projects</a> and <a href="#">code snippets</a>.</p>
+    </div>
+</body>
+
+</html>
